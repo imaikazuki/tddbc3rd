@@ -14,5 +14,9 @@ public class Interval(lower : Int, upper : Int) {
 
   fun toString() : String = "[${lowerEnd},${upperEnd}]"
 
+  fun equals(other : Interval) : Boolean
+          = (this.lowerEnd == other.lowerEnd
+              && this.upperEnd == other.upperEnd)
+
   fun contains(i : Int) : Boolean = lowerEnd <= i && i <= upperEnd
 }

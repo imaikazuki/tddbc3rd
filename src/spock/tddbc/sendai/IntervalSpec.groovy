@@ -63,4 +63,9 @@ class IntervalSpec extends Specification {
       3     |     3 |   3 | true
   }
 
+  def "閉区間[3,8] は 閉区間[3,8] と等しい"() {
+    expect:
+      assert new Interval(3, 8) == new Interval(3, 8)
+  }
+
 }
