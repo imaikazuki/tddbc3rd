@@ -9,11 +9,15 @@ package tddbc.sendai
  */
 class Interval {
 
+  private int lowerEnd
   private int upperEnd
 
-  Interval(int i, int upper) {
-    this.upperEnd = upper;
+  Interval(int lower, int upper) {
+    this.lowerEnd = lower
+    this.upperEnd = upper
   }
 
   Integer getUpperEnd() { this.upperEnd }
+
+  Integer getLowerEnd() { this.lowerEnd }
 }

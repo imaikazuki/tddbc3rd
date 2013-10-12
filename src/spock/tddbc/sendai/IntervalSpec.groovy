@@ -11,17 +11,20 @@ import spock.lang.Specification
  */
 class IntervalSpec extends Specification {
 
-
-//    下端点と上端点を与えて閉区間を生成しよう
-//    閉区間から下端点と上端点を取得しよう
 //    閉区間から文字列表記を取得しよう
 
+  def "閉区間[6, 8]から、下端点を取得する"() {
+    setup:
+    def i = new Interval(-3, 8)
+    expect:
+    assert i.lowerEnd == -3
+  }
 
-    def "閉区間[4, 9]から、上端点を取得する"() {
-        setup:
-            def i = new Interval(4, 9)
-        expect:
-            assert i.upperEnd == 9
-    }
+  def "閉区間[4, 9]から、上端点を取得する"() {
+    setup:
+      def i = new Interval(4, 9)
+    expect:
+      assert i.upperEnd == 9
+  }
 
 }
