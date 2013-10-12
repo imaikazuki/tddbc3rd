@@ -21,7 +21,7 @@ class IntervalSpec extends Specification {
         setup:
             def i = new Interval(4, 9)
         expect:
-            assert i.upperEnd() == 9
+            assert i.upperEnd == 9
     }
 
 }

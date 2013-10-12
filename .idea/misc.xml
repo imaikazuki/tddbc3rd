@@ -118,19 +118,6 @@
     <option name="FORCE_UPDATE" value="false" />
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
-  <component name="ValidationConfiguration">
-    <option name="VALIDATE_ON_BUILD" value="true" />
-    <option name="VALIDATORS">
-      <map>
-        <entry key="EJB Validator" value="true" />
-        <entry key="Faces Validator" value="true" />
-        <entry key="JPA Validator" value="true" />
-        <entry key="Jasper Validator" value="true" />
-        <entry key="Spring Model Validator" value="true" />
-        <entry key="Web Xml Validator" value="true" />
-      </map>
-    </option>
-  </component>
   <component name="com.sixrr.metrics.MetricsReloaded">
     <option name="selectedProfile" value="" />
     <option name="autoscroll" value="false" />

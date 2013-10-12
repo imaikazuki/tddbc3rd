@@ -8,11 +8,12 @@ package tddbc.sendai
  * To change this template use File | Settings | File Templates.
  */
 class Interval {
-    Interval(int i, int j) {
 
-    }
+  private int upperEnd
 
-    Integer upperEnd() {
-        9
-    }
+  Interval(int i, int upper) {
+    this.upperEnd = upper;
+  }
+
+  Integer getUpperEnd() { this.upperEnd }
 }
