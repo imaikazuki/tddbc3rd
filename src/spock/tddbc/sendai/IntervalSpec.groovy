@@ -63,9 +63,19 @@ class IntervalSpec extends Specification {
       3     |     3 |   3 | true
   }
 
-  def "閉区間[3,8] は 閉区間[3,8] と等しい"() {
+  def "閉区間と閉区間の比較"() {
+    setup:
+      def left = new Interval(a, b)
+      def right = new Interval(c, d)
     expect:
-      assert new Interval(3, 8) == new Interval(3, 8)
+      assert result == (left == right)
+    where:
+      a  | b  | c  | d  | result
+      3  | 8  | 3  | 8  | true
+      3  | 8  | 1  | 6  | false
+      3  | 8  | 1  | 8  | false
+      3  | 8  | 3  | 6  | false
+
   }
 
 }
