@@ -32,4 +32,23 @@ class IntervalSpec extends Specification {
       assert i.toString() == "[-5,10]"
   }
 
+  def "上端が下端より小さい閉区間[8, 3]は生成できない"() {
+    setup:
+      def i
+    when:
+      i = new Interval(8, 3)
+    then:
+      thrown RuntimeException
+  }
+
+  def "上端と下端が等しい閉区間[5, 5]は生成できる"() {
+    setup:
+      def i
+    when:
+      i = new Interval(5, 5)
+    then:
+      notThrown RuntimeException
+      assert i.lowerEnd == i.upperEnd
+  }
+
 }

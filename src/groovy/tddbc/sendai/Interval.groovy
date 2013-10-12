@@ -13,6 +13,7 @@ class Interval {
   private int upperEnd
 
   Interval(int lower, int upper) {
+    if (lower > upper) throw new RuntimeException()
     this.lowerEnd = lower
     this.upperEnd = upper
   }
