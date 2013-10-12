@@ -19,4 +19,8 @@ public class Interval(lower : Int, upper : Int) {
               && this.upperEnd == other.upperEnd)
 
   fun contains(i : Int) : Boolean = lowerEnd <= i && i <= upperEnd
+
+  fun isConnectedTo(other : Interval) : Boolean
+          = (this.lowerEnd <= other.upperEnd && other.upperEnd <= this.upperEnd
+              || this.lowerEnd <= other.lowerEnd && other.lowerEnd <= this.upperEnd)
 }

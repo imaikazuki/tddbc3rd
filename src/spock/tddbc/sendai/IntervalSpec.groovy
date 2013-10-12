@@ -1,6 +1,7 @@
 package tddbc.sendai
 
 import spock.lang.Specification
+import spock.lang.Unroll
 
 /**
  * Created with IntelliJ IDEA.
@@ -76,6 +77,21 @@ class IntervalSpec extends Specification {
       3  | 8  | 1  | 8  | false
       3  | 8  | 3  | 6  | false
 
+  }
+
+  @Unroll
+  def "閉区間が別の閉区間と接続しているか (isConnectedTo) 判定しよう"() {
+    setup:
+      def left = new Interval(a, b)
+      def right = new Interval(c, d)
+    expect:
+      assert result == left.isConnectedTo(right)
+    where:
+      a  | b  | c  | d  | result
+      1  | 2  | 8  | 9  | false
+      1  | 5  | 3  | 8  | true
+      3  | 8  | 1  | 5  | true
+      1  | 9  | 1  | 9  | true
   }
 
 }
