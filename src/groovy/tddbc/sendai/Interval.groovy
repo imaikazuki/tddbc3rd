@@ -26,4 +26,8 @@ class Interval {
   String toString() {
     return "[${lowerEnd},${upperEnd}]"
   }
+
+  boolean contains(int i) {
+    lowerEnd <= i && i <= upperEnd
+  }
 }
