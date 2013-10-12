@@ -51,23 +51,15 @@ class IntervalSpec extends Specification {
       assert i.lowerEnd == i.upperEnd
   }
 
-  //閉区間が指定した整数を含むか (contains) 判定しよう
-  def "閉区間[1, 5]は、3を含む"() {
+  def "閉区間が値を含むかを返す"() {
     setup:
-      def i
-    when:
-      i = new Interval(1, 5)
-    then:
-      assert i.contains(3)
-  }
-
-  def "閉区間[1, 5]は、8を含まない"() {
-    setup:
-    def i
-    when:
-    i = new Interval(1, 5)
-    then:
-    assert !i.contains(8)
+      def i = new Interval(lower, upper)
+    expect:
+      assert i.contains(num) == result
+    where:
+      lower | upper | num | result
+      3     |     8 |   5 | true
+      8     |    10 |   3 | false
   }
 
 }
