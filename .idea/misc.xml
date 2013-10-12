@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
+  <component name="JSHintConfiguration" version="1.1.0" use-config-file="false">
+    <option bitwise="true" />
+    <option camelcase="false" />
+    <option curly="true" />
+    <option eqeqeq="true" />
+    <option forin="true" />
+    <option immed="false" />
+    <option latedef="false" />
+    <option newcap="false" />
+    <option noarg="true" />
+    <option noempty="true" />
+    <option nonew="true" />
+    <option plusplus="false" />
+    <option regexp="false" />
+    <option undef="true" />
+    <option unused="false" />
+    <option strict="true" />
+    <option trailing="false" />
+    <option asi="false" />
+    <option boss="false" />
+    <option debug="false" />
+    <option eqnull="false" />
+    <option es5="false" />
+    <option esnext="false" />
+    <option evil="false" />
+    <option expr="false" />
+    <option funcscope="false" />
+    <option globalstrict="false" />
+    <option iterator="false" />
+    <option lastsemic="false" />
+    <option laxbreak="false" />
+    <option laxcomma="false" />
+    <option loopfunc="false" />
+    <option multistr="false" />
+    <option proto="false" />
+    <option onecase="false" />
+    <option regexdash="false" />
+    <option scripturl="false" />
+    <option smarttabs="false" />
+    <option shadow="false" />
+    <option sub="false" />
+    <option supernew="false" />
+    <option validthis="false" />
+    <option browser="true" />
+    <option couch="false" />
+    <option devel="false" />
+    <option dojo="false" />
+    <option jquery="false" />
+    <option mootools="false" />
+    <option node="false" />
+    <option nonstandard="false" />
+    <option prototypejs="false" />
+    <option rhino="false" />
+    <option worker="false" />
+    <option wsh="false" />
+    <option yui="false" />
+    <option nomen="false" />
+    <option onevar="false" />
+    <option passfail="false" />
+    <option white="false" />
+    <option maxerr="50" />
+  </component>
+  <component name="JSLintConfiguration">
+    <option indent="2" />
+    <option maxerr="50" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="masanobuimai" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>toString() issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="SvnConfiguration17" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="ValidationConfiguration">
+    <option name="VALIDATE_ON_BUILD" value="true" />
+    <option name="VALIDATORS">
+      <map>
+        <entry key="EJB Validator" value="true" />
+        <entry key="Faces Validator" value="true" />
+        <entry key="JPA Validator" value="true" />
+        <entry key="Jasper Validator" value="true" />
+        <entry key="Spring Model Validator" value="true" />
+        <entry key="Web Xml Validator" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="com.sixrr.metrics.MetricsReloaded">
+    <option name="selectedProfile" value="" />
+    <option name="autoscroll" value="false" />
+    <option name="showOnlyWarnings" value="false" />
+  </component>
+</project>
+
