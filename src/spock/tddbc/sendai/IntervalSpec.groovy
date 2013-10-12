@@ -60,6 +60,7 @@ class IntervalSpec extends Specification {
       lower | upper | num | result
       3     |     8 |   5 | true
       8     |    10 |   3 | false
+      3     |     3 |   3 | true
   }
 
 }
