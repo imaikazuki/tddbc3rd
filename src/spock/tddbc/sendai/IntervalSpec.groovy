@@ -11,9 +11,7 @@ import spock.lang.Specification
  */
 class IntervalSpec extends Specification {
 
-//    閉区間から文字列表記を取得しよう
-
-  def "閉区間[6, 8]から、下端点を取得する"() {
+  def "閉区間[-3, 8]から、下端点を取得する"() {
     setup:
     def i = new Interval(-3, 8)
     expect:
@@ -25,6 +23,13 @@ class IntervalSpec extends Specification {
       def i = new Interval(4, 9)
     expect:
       assert i.upperEnd == 9
+  }
+
+  def "閉区間[-5, 10]の文字列表記 '[-5,10]' を取得する"() {
+    setup:
+      def i = new Interval(-5, 10)
+    expect:
+      assert i.toString() == "[-5,10]"
   }
 
 }

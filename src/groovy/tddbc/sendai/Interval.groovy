@@ -20,4 +20,9 @@ class Interval {
   Integer getUpperEnd() { this.upperEnd }
 
   Integer getLowerEnd() { this.lowerEnd }
+
+  @Override
+  String toString() {
+    return "[${lowerEnd},${upperEnd}]"
+  }
 }
