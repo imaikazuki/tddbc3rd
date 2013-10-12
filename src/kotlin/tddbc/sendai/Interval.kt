@@ -20,7 +20,15 @@ public class Interval(lower : Int, upper : Int) {
 
   fun contains(i : Int) : Boolean = lowerEnd <= i && i <= upperEnd
 
+//  fun isConnectedTo(other : Interval) : Boolean
+//          = (this.lowerEnd <= other.upperEnd && other.upperEnd <= this.upperEnd
+//              || this.lowerEnd <= other.lowerEnd && other.lowerEnd <= this.upperEnd)
+//    fun isConnectedTo(other : Interval) : Boolean
+//            = (other.upperEnd in this.lowerEnd..this.upperEnd)
+//                || (other.lowerEnd in this.lowerEnd..this.upperEnd)
+
   fun isConnectedTo(other : Interval) : Boolean
-          = (this.lowerEnd <= other.upperEnd && other.upperEnd <= this.upperEnd
-              || this.lowerEnd <= other.lowerEnd && other.lowerEnd <= this.upperEnd)
+          = contains(other.lowerEnd) || contains(other.upperEnd)
+
 }
+
